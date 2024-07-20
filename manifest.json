@@ -1,0 +1,35 @@
+{
+   "manifest_version": 2,
+   "name": "Created Image Theme",
+   "theme": {
+      "colors": {
+         "bookmark_text": [ 255, 255, 255 ],
+         "frame": [ 0, 0, 0 ],
+         "ntp_background": [ 10, 17, 27 ],
+         "ntp_link": [ 255, 255, 255 ],
+         "ntp_section_link": [ 255, 255, 255 ],
+         "ntp_section_text": [ 10, 17, 27 ],
+         "ntp_text": [ 0, 0, 0 ],
+         "tab_background_text": [ 250, 250, 250 ],
+         "tab_text": [ 255, 255, 255 ],
+         "toolbar": [ 10, 17, 27 ]
+      },
+      "images": {
+         "theme_frame": "frame.png",
+         "theme_ntp_background": "bg.png",
+         "theme_tab_background": "tab_background.png",
+         "theme_toolbar": "toolbar.png"
+      },
+      "properties": {
+         "frame_alignment": "top",
+         "ntp_background_alignment": "bottom",
+         "ntp_background_repeat": "no-repeat",
+         "tab_background_alignment": "top",
+         "toolbar_alignment": "top"
+      },
+      "tints": {
+         "buttons": [ 0.8, 0.3333, 0.96 ]
+      }
+   },
+   "version": "1.0"
+}
