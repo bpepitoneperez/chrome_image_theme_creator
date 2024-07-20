@@ -49,7 +49,7 @@ tabBGImage = enhancer.enhance(0.8)
 tabBGImage.save("tab_background.png")
 
 # Create ZIP
-zf = zipfile.ZipFile("monetTheme.zip", "w")
+zf = zipfile.ZipFile("theme.zip", "w")
 zf.write("./manifest.json")
 zf.write("./bg.png")
 zf.write("./frame.png")
